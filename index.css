@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   background-image: url(./photo.jpeg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+
+    text-align: center;
+    padding: 20px;
+}
+h2{
+    padding: 10px;
+    font-weight: bold;
+    font-size: xx-large;
+}
+#increment-btn{
+    background-color: rgb(73, 130, 229);
+    padding: 12px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 2px 8px black ;
+}
+#increment-btn:hover
+{
+transform: translate(2px , 2px);
+box-shadow: 2px 1.4px 8px black;
+}
+#save-btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,20%);
+    display:block;
+    background-color: rgb(46, 145, 1);
+    padding: 12px 30px;
+    cursor: pointer;
+    border-style: none;
+    border-radius: 5px;
+    box-shadow: 4px 2px 8px black ;
+}
+#save-btn:hover
+{
+    transform: translate(-48%,21%);
+    box-shadow: 2px 1.4px 8px black;
+}
+#pre-entry{
+    padding-top: 21px;
+
+}
